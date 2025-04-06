@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "StringsInsufficientHexLength",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "StringsInvalidAddressFormat",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "StringsInvalidChar",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "String operations.",
+			"errors": {
+				"StringsInsufficientHexLength(uint256,uint256)": [
+					{
+						"details": "The `value` string doesn't fit in the specified `length`."
+					}
+				],
+				"StringsInvalidAddressFormat()": [
+					{
+						"details": "The string being parsed is not a properly formatted address."
+					}
+				],
+				"StringsInvalidChar()": [
+					{
+						"details": "The string being parsed contains characters that are not in scope of the given base."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"influent_flattened.sol": "Strings"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"influent_flattened.sol": {
+			"keccak256": "0x4629d8befafa014818e3c06a1970dac27f983162c32e399de35d16f1caaab4cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fb736b56330b6ada3023a1c3cb83d81e0702c2c46b509a9a6f76d85ecb2b4585",
+				"dweb:/ipfs/Qmf3YRnwVob1BvYGjWf1RjgXTJ7MUhp7LV4P3YuWS5Ac3p"
+			]
+		}
+	},
+	"version": 1
+}
